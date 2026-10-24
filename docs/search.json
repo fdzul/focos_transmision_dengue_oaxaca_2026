@@ -5,5 +5,208 @@
     "title": "Objetivo general",
     "section": "",
     "text": "Objetivo general\nEl curso Identificación de los Focos de Transmisión de las Arbovirosis en R tiene como objetivo central desarrollar las competencias específicas para la identificación de los escenarios operativos o epidemiológicos del riesgo de transmisión de los virus del dengue en las localidades urbanas endémicas del estado de Oaxaca, usando información entomológica y epidemiológica, con la finalidad de orientar las acciones de prevención y control del Manejo Integrado de las Arbovirosis en México.\n\n\nObjetivos específicos\n\nIdentificar los focos de transmisión activa (cadenas de transmisión, mapas de calor y modelo Log-Gaussian Cox Process) de las arbovirosis en las localidades urbanas endémicas del estado de Oaxaca.\nIdentificar los hotspots de la transmisión persistente de las arbovirosis en las localidades urbanas endémicas del estado de Oaxaca.\nIdentificar los hotspots de la abundancia de huevos de Aedes aegypti en las localidades urbanas endémicas del estado de Oaxaca.\nDesarrollar un modelo estratégico de focalización del dengue en las localidades urbanas endémicas del estado de Oaxaca.\nDiseñar y publicar en internet un dashboard de la transmisión activa del dengue.\n\n\n\nAudiencia\nEl curso está complementado con el desarrollo de paquetes de R colectivamente llamados dengueverse (rgeomex, denhotspots, deneggs, dencontrol, denepikit) y con el manual para la identificación de los hotspots en las localidades urbanas endémicas. Actualmente se está escribiendo una nueva versión del manual, Identificación de los Focos de la Transmisión de las Arbovirosis & Manejo Integrado de Aedes en R (en actualización). El curso, los paquetes y el manual están dirigidos al personal operativo, mandos medios y directivos de los Programas de Prevención y Control de las arbovirosis transmitidas por Aedes de la Secretaría de Salud de México, a la comunidad académica relacionada con la investigación operativa sobre el análisis espacial del dengue y al público en general interesado en el tema.\nEn esta edición estatal se trabajará con las bases de datos del SINAVE y de ovitrampas de las localidades prioritarias de Oaxaca, de modo que cada participante termine el curso con los mapas de su localidad."
+  },
+  {
+    "objectID": "links.html",
+    "href": "links.html",
+    "title": "Referencias",
+    "section": "",
+    "text": "Geocomputation with R\n\n\n\n\nGeocomputation with Python\n\n\n\n\nGeocomputation with Julia\n\n\n\n\nSpatial Data Science in R\n\n\n\n\nSpatial, Temporal and Spatial-Temporal Ecological Data Analysis with R\n\n\n\n\nSpatial, Temporal and Spatio-temporal Bayesian Models with R-INLA\n\n\n\n\nDynamic Time Series Models R INLA\n\n\n\n\nSpatial Statistics For Data Science\n\n\n\n\nGeospatial Health Data. Modeling and Visualization with R-INLA and Shiny\n\n\n\n\nGeographic Data Science With R\n\n\n\n\nAdvanced Spatial Modeling With Stochastic Partial Differential Equations Using R and INLA"
+  },
+  {
+    "objectID": "Labs.html",
+    "href": "Labs.html",
+    "title": "Laboratorios",
+    "section": "",
+    "text": "Objetivo. Que el personal de vectores desarrolle las competencias específicas para instalar paquetes desde CRAN, GitHub o archivos binarios.\n\n\n\nInstalar desde CRAN: tidyverse, easystats, tidymodels, data.table y reactable.\nInstalar desde GitHub: KrigR.\nInstalar los paquetes del dengueverse desde r-universe."
+  },
+  {
+    "objectID": "Labs.html#laboratorio-del-módulo-i.-requisitos-básicos",
+    "href": "Labs.html#laboratorio-del-módulo-i.-requisitos-básicos",
+    "title": "Laboratorios",
+    "section": "",
+    "text": "Objetivo. Que el personal de vectores desarrolle las competencias específicas para instalar paquetes desde CRAN, GitHub o archivos binarios.\n\n\n\nInstalar desde CRAN: tidyverse, easystats, tidymodels, data.table y reactable.\nInstalar desde GitHub: KrigR.\nInstalar los paquetes del dengueverse desde r-universe."
+  },
+  {
+    "objectID": "Labs.html#laboratorio-del-módulo-ii.-focos-de-transmisión-activa-de-las-arbovirosis",
+    "href": "Labs.html#laboratorio-del-módulo-ii.-focos-de-transmisión-activa-de-las-arbovirosis",
+    "title": "Laboratorios",
+    "section": "Laboratorio del Módulo II. Focos de transmisión activa de las arbovirosis",
+    "text": "Laboratorio del Módulo II. Focos de transmisión activa de las arbovirosis\nObjetivo. Que el personal de vectores desarrolle las competencias específicas para realizar la geocodificación y el análisis de los focos de transmisión activa de las arbovirosis en R.\n\nActividad 1\n\nBajar la carpeta geocodificación de GitHub.\nGeocodificar las bases de datos históricas del SINAVE.\n\n\n\nActividad 2\n\nRealizar el análisis de los focos de transmisión activa en la(s) localidad(es) prioritaria(s) del estado.\nElaborar los mapas estáticos e interactivos."
+  },
+  {
+    "objectID": "Labs.html#laboratorio-del-módulo-iii.-hotspots-de-la-transmisión-persistente-de-las-arbovirosis",
+    "href": "Labs.html#laboratorio-del-módulo-iii.-hotspots-de-la-transmisión-persistente-de-las-arbovirosis",
+    "title": "Laboratorios",
+    "section": "Laboratorio del Módulo III. Hotspots de la transmisión persistente de las arbovirosis",
+    "text": "Laboratorio del Módulo III. Hotspots de la transmisión persistente de las arbovirosis\nObjetivo. Que el personal de vectores desarrolle las competencias específicas para identificar los hotspots de la transmisión persistente en las localidades prioritarias del estado.\n\nActividad 1\n\nBajar la carpeta hotspots_cases de GitHub.\nRealizar el análisis de hotspots en la(s) localidad(es) prioritaria(s) del estado de procedencia."
+  },
+  {
+    "objectID": "Labs.html#laboratorio-del-módulo-iv.-hotspots-de-la-abundancia-de-huevos-del-vector-del-dengue",
+    "href": "Labs.html#laboratorio-del-módulo-iv.-hotspots-de-la-abundancia-de-huevos-del-vector-del-dengue",
+    "title": "Laboratorios",
+    "section": "Laboratorio del Módulo IV. Hotspots de la abundancia de huevos del vector del dengue",
+    "text": "Laboratorio del Módulo IV. Hotspots de la abundancia de huevos del vector del dengue\nObjetivo. Que el personal de vectores desarrolle las competencias específicas para realizar la predicción de huevos usando el análisis geoestadístico con SPDE-INLA.\n\nActividad 1\n\nBajar las bases de datos históricas de lecturas de ovitrampas (2020–2026).\nBajar las lecturas de ovitrampas del año en curso hasta el mes del curso.\n\n\n\nActividad 2\n\nBajar la carpeta hotspots_vector de GitHub.\nPredecir el número de huevos en la(s) localidad(es) prioritaria(s) del estado de procedencia.\nVisualizar los mapas predictivos."
+  },
+  {
+    "objectID": "Labs.html#laboratorio-del-módulo-v.-modelo-estratégico-de-focalización-del-dengue",
+    "href": "Labs.html#laboratorio-del-módulo-v.-modelo-estratégico-de-focalización-del-dengue",
+    "title": "Laboratorios",
+    "section": "Laboratorio del Módulo V. Modelo estratégico de focalización del dengue",
+    "text": "Laboratorio del Módulo V. Modelo estratégico de focalización del dengue\nObjetivo. Que el personal de vectores desarrolle las competencias específicas para identificar los escenarios epidemiológicos del dengue combinando los hotspots de casos y del vector.\n\nActividad 1\n\nBajar la carpeta de focos de transmisión persistente de GitHub.\nConstruir los escenarios epidemiológicos y el mapa de riesgo de la(s) localidad(es) prioritaria(s)."
+  },
+  {
+    "objectID": "Labs.html#laboratorio-del-módulo-vi.-dashboard-de-la-transmisión-activa",
+    "href": "Labs.html#laboratorio-del-módulo-vi.-dashboard-de-la-transmisión-activa",
+    "title": "Laboratorios",
+    "section": "Laboratorio del Módulo VI. Dashboard de la transmisión activa",
+    "text": "Laboratorio del Módulo VI. Dashboard de la transmisión activa\nObjetivo. Que el personal de vectores desarrolle las competencias específicas para diseñar un dashboard y publicarlo en internet.\n\nActividad 1\n\nBajar la plantilla del dashboard.\nCrear una cuenta en GitHub y en Netlify.\nInstalar git y registrar el usuario y correo en la computadora.\nConectar git con GitHub.\nPublicar el dashboard."
+  },
+  {
+    "objectID": "temario.html",
+    "href": "temario.html",
+    "title": "Temario",
+    "section": "",
+    "text": "Presentaciones: Instalación de paquetes · dengueverse · Datos espaciales"
+  },
+  {
+    "objectID": "temario.html#módulo-i.-requisitos-básicos",
+    "href": "temario.html#módulo-i.-requisitos-básicos",
+    "title": "Temario",
+    "section": "",
+    "text": "Presentaciones: Instalación de paquetes · dengueverse · Datos espaciales"
+  },
+  {
+    "objectID": "temario.html#módulo-ii.-focos-de-transmisión-activa-de-las-arbovirosis",
+    "href": "temario.html#módulo-ii.-focos-de-transmisión-activa-de-las-arbovirosis",
+    "title": "Temario",
+    "section": "Módulo II. Focos de transmisión activa de las arbovirosis",
+    "text": "Módulo II. Focos de transmisión activa de las arbovirosis\n\n\n\n\n\n\nPresentaciones: Geocoding API Key"
+  },
+  {
+    "objectID": "temario.html#módulo-iii.-hotspots-de-la-transmisión-persistente-de-las-arbovirosis",
+    "href": "temario.html#módulo-iii.-hotspots-de-la-transmisión-persistente-de-las-arbovirosis",
+    "title": "Temario",
+    "section": "Módulo III. Hotspots de la transmisión persistente de las arbovirosis",
+    "text": "Módulo III. Hotspots de la transmisión persistente de las arbovirosis\n\n\n\n\n\n\nPresentaciones: Análisis espacial del dengue en R · Hotspots de transmisión del dengue · Hotspots de transmisión del dengue en R"
+  },
+  {
+    "objectID": "temario.html#módulo-iv.-hotspots-de-la-abundancia-de-huevos-del-vector-del-dengue",
+    "href": "temario.html#módulo-iv.-hotspots-de-la-abundancia-de-huevos-del-vector-del-dengue",
+    "title": "Temario",
+    "section": "Módulo IV. Hotspots de la abundancia de huevos del vector del dengue",
+    "text": "Módulo IV. Hotspots de la abundancia de huevos del vector del dengue\n\n\n\n\n\n\nPresentaciones: Hotspots del vector del dengue · Hotspots del vector del dengue en R"
+  },
+  {
+    "objectID": "temario.html#módulo-v.-modelo-estratégico-de-focalización-del-dengue",
+    "href": "temario.html#módulo-v.-modelo-estratégico-de-focalización-del-dengue",
+    "title": "Temario",
+    "section": "Módulo V. Modelo estratégico de focalización del dengue",
+    "text": "Módulo V. Modelo estratégico de focalización del dengue"
+  },
+  {
+    "objectID": "temario.html#módulo-vi.-dashboard-de-la-transmisión-activa",
+    "href": "temario.html#módulo-vi.-dashboard-de-la-transmisión-activa",
+    "title": "Temario",
+    "section": "Módulo VI. Dashboard de la transmisión activa",
+    "text": "Módulo VI. Dashboard de la transmisión activa"
+  },
+  {
+    "objectID": "contacto.html#dr.-felipe-antonio-dzul-manzanilla",
+    "href": "contacto.html#dr.-felipe-antonio-dzul-manzanilla",
+    "title": "Contacto",
+    "section": "Dr. Felipe Antonio Dzul Manzanilla",
+    "text": "Dr. Felipe Antonio Dzul Manzanilla\n\nTeléfono personal: 999 958 0167\nTeléfono oficina: 329 30 00 Ext. 3225\nCorreo: felipe.dzul.m@gmail.com, investigador41@insp.mx\nGoogle Académico: https://scholar.google.es/citations?user=3e3-4VkAAAAJ&hl=es\nGitHub: https://github.com/fdzul\nBio: https://sparkly-kleicha-e38ffa.netlify.app\nINSP: https://www.insp.mx/centros/sistemas-de-salud/investigador/dzul-manzanilla-felipe-antonio"
+  },
+  {
+    "objectID": "contacto.html#dr.-fabián-correa-morales",
+    "href": "contacto.html#dr.-fabián-correa-morales",
+    "title": "Contacto",
+    "section": "Dr. Fabián Correa Morales",
+    "text": "Dr. Fabián Correa Morales\n\nTeléfono personal: 55 7474 5576\nCorreo: fabiancorrea@msn.com\nGoogle Académico: https://scholar.google.com/citations?hl=en&user=JceGxawAAAAJ"
+  },
+  {
+    "objectID": "contacto.html#dr.-héctor-gómez-dantés",
+    "href": "contacto.html#dr.-héctor-gómez-dantés",
+    "title": "Contacto",
+    "section": "Dr. Héctor Gómez Dantés",
+    "text": "Dr. Héctor Gómez Dantés\n\nTeléfono oficina: 329 30 00 Ext. 3225\nCorreo: hector.gomez@insp.mx\nGoogle Académico: https://scholar.google.es/citations?user=wl8S934AAAAJ&hl=es\nINSP: https://insp.mx/centros/sistemas-de-salud/investigador/gomez-dantes-hector"
+  },
+  {
+    "objectID": "contacto.html#ing.-guillermo-rivera-barranco",
+    "href": "contacto.html#ing.-guillermo-rivera-barranco",
+    "title": "Contacto",
+    "section": "Ing. Guillermo Rivera Barranco",
+    "text": "Ing. Guillermo Rivera Barranco\nCoordinador Estatal de Evaluación de Procesos y Estadística, Departamento de Prevención y Control de Enfermedades Transmitidas por Vector del Estado de Oaxaca\nTeléfono personal: 958 106 1372\nCorreo: memo85@gmail.com"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Focos de Transmisión del Dengue · Oaxaca",
+    "section": "",
+    "text": "Oaxaca"
+  },
+  {
+    "objectID": "about.html#estado-convocado",
+    "href": "about.html#estado-convocado",
+    "title": "Focos de Transmisión del Dengue · Oaxaca",
+    "section": "",
+    "text": "Oaxaca"
+  },
+  {
+    "objectID": "about.html#formato-del-curso",
+    "href": "about.html#formato-del-curso",
+    "title": "Focos de Transmisión del Dengue · Oaxaca",
+    "section": "Formato del curso",
+    "text": "Formato del curso\n\nCurso presencial de martes a viernes.\n09:00 a 18:00 horas"
+  },
+  {
+    "objectID": "about.html#sede",
+    "href": "about.html#sede",
+    "title": "Focos de Transmisión del Dengue · Oaxaca",
+    "section": "Sede",
+    "text": "Sede\n\nSalón de eventos, Hotel Angel Inn\nCalle Hidalgo 204, San Felipe del Agua, C.P. 68020, Oaxaca de Juárez, Oaxaca (Google Maps)\nHotel recomendado: Hotel Misión, Avenida Jalisco 15, C.P. 68020, Oaxaca de Juárez, Oaxaca"
+  },
+  {
+    "objectID": "about.html#fecha",
+    "href": "about.html#fecha",
+    "title": "Focos de Transmisión del Dengue · Oaxaca",
+    "section": "Fecha",
+    "text": "Fecha\nDel 27 al 30 de octubre de 2026"
+  },
+  {
+    "objectID": "about.html#requisitos-de-conceptos-teóricos",
+    "href": "about.html#requisitos-de-conceptos-teóricos",
+    "title": "Focos de Transmisión del Dengue · Oaxaca",
+    "section": "Requisitos de conceptos teóricos",
+    "text": "Requisitos de conceptos teóricos\nEs ideal tener conocimientos de los conceptos básicos de los sistemas de información geográfica (SIG), como vector (puntos, líneas y polígonos), ráster y sistemas de referencia de coordenadas (Coordinate Reference System, CRS), pero no es indispensable."
+  },
+  {
+    "objectID": "about.html#requisitos-computacionales",
+    "href": "about.html#requisitos-computacionales",
+    "title": "Focos de Transmisión del Dengue · Oaxaca",
+    "section": "Requisitos computacionales",
+    "text": "Requisitos computacionales\nEs deseable tener experiencia en R, Python o cualquier otro lenguaje de programación, principalmente en importar archivos de texto (csv, txt, xlsx) y archivos geográficos, crear gráficos simples y manipular bases de datos. Si no tiene experiencia con R pero ya usa software SIG y conoce bien los tipos de datos geográficos, el curso también puede ser apropiado para usted, siempre que tenga la necesidad o el deseo de aprender nuevas herramientas para la elaboración y diseño de mapas en R."
+  },
+  {
+    "objectID": "about.html#requisitos-de-equipo-y-software",
+    "href": "about.html#requisitos-de-equipo-y-software",
+    "title": "Focos de Transmisión del Dengue · Oaxaca",
+    "section": "Requisitos de equipo y software",
+    "text": "Requisitos de equipo y software\n\nComputadora. Laptop o computadora de escritorio con una versión funcional de R, RStudio y Rtools. R y Rtools se descargan de https://www.r-project.org/ y RStudio de https://posit.co/. En el curso se abordarán brevemente otros IDE para trabajar con R: Positron, Visual Studio Code, Antigravity y Google Colaboratory.\nInstalación de paquetes en R. Todos los paquetes que utilizaremos se podrán instalar durante el taller; antes del curso se compartirá la lista completa.\nClaves del SINAVE. Es importante contar con su usuario y contraseña del módulo de vectores del SINAVE; en el taller se usarán las bases de datos de vectores (principalmente dengue) para la elaboración de los mapas.\nRequisitos adicionales. Aunque no es obligatorio, un monitor grande o un segundo monitor mejora mucho la experiencia de aprendizaje."
+  },
+  {
+    "objectID": "about.html#inscripción-al-curso",
+    "href": "about.html#inscripción-al-curso",
+    "title": "Focos de Transmisión del Dengue · Oaxaca",
+    "section": "Inscripción al curso",
+    "text": "Inscripción al curso\nLas inscripciones se abrirán cuando la Dirección y Subdirección de Vectores del CENAPRECE autoricen las unidades didácticas del curso.\nFormulario de inscripción (enlace pendiente)"
+  },
+  {
+    "objectID": "about.html#examen",
+    "href": "about.html#examen",
+    "title": "Focos de Transmisión del Dengue · Oaxaca",
+    "section": "Examen",
+    "text": "Examen\nSe realizará un examen previo y uno posterior al curso. El examen previo se aplica una semana antes del curso y el posterior durante el curso.\n\nExamen previo (enlace pendiente)\nExamen posterior (enlace pendiente)"
   }
 ]
