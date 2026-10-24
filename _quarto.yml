@@ -1,0 +1,44 @@
+# Generado por crear_curso.R a partir de curso.yml — los valores {{...}}
+# se rellenan automáticamente. El resto es común a todos los cursos.
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Focos de Transmisión del Dengue · Oaxaca"
+  page-footer: "© 2026, Felipe Antonio Dzul Manzanilla | Fabián Correa-Morales"
+  repo-url: https://github.com/fdzul/focos_transmision_dengue_oaxaca_2026
+  repo-actions: [issue]
+  favicon: imagenes/vectores.png
+  navbar:
+    logo: imagenes/vectores.png
+    right:
+      - text: dengueverse
+        href: https://fdzul.r-universe.dev
+      - icon: github
+        href: https://github.com/fdzul/focos_transmision_dengue_oaxaca_2026
+    left:
+      - href: index.qmd
+        text: Objetivos
+      - href: about.qmd
+        text: Detalles
+      - href: temario.qmd
+        text: Temario
+      - href: Labs.qmd
+        text: Labs
+      - href: links.qmd
+        text: Referencias
+      - href: contacto.qmd
+        text: Contacto
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    lang: es
+
+execute:
+  freeze: false
+  warning: false
+  message: false

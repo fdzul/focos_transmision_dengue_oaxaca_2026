@@ -1,0 +1,161 @@
+# =====================================================================
+# CATÁLOGO DE MÓDULOS (compartido por todos los cursos)
+# ---------------------------------------------------------------------
+# Cada módulo alimenta TRES páginas a la vez:
+#   - Objetivos (index): campo `objetivo`
+#   - Temario:           campos `titulo`, `temas`, `presentaciones`
+#   - Labs:              campo `laboratorio`
+# Así el temario y los laboratorios no se desfasan entre sí.
+# La numeración (Módulo I, II, ...) se asigna sola según el orden
+# en que se elijan en curso.yml.
+# =====================================================================
+
+instructor_default: "Felipe Antonio Dzul Manzanilla"
+
+modulos:
+
+  requisitos:
+    titulo: "Requisitos básicos"
+    objetivo: null            # no aparece en objetivos específicos
+    temas:
+      - Instalar R
+      - Instalar RStudio
+      - Introducción a RStudio
+      - Instalación de paquetes desde CRAN
+      - Instalación de paquetes desde GitHub
+      - Instalación de paquetes desde un archivo
+      - Instalación de paquetes para el análisis espacial
+      - Instalación de paquetes desarrollados por CENAPRECE-InDRE
+      - Datos espaciales
+    presentaciones:
+      - texto: "Instalación de paquetes"
+        url: "https://calm-hummingbird-41cb33.netlify.app/talks/pkg_installation/#/"
+      - texto: "dengueverse"
+        url: "https://calm-hummingbird-41cb33.netlify.app/talks/dengueverse/#/dengueverse"
+      - texto: "Datos espaciales"
+        url: "https://calm-hummingbird-41cb33.netlify.app/talks/spatial_data/#/"
+    laboratorio:
+      objetivo: >-
+        Que el personal de vectores desarrolle las competencias específicas para
+        instalar paquetes desde [CRAN](https://cran.r-project.org),
+        [GitHub](https://github.com) o archivos binarios.
+      actividades:
+        - - "Instalar desde CRAN: [tidyverse](https://www.tidyverse.org), [easystats](https://easystats.github.io/easystats/), [tidymodels](https://www.tidymodels.org), [data.table](https://rdatatable.gitlab.io/data.table/) y [reactable](https://glin.github.io/reactable/)."
+          - "Instalar desde GitHub: [KrigR](https://github.com/ErikKusch/KrigR)."
+          - "Instalar los paquetes del dengueverse desde [r-universe](https://fdzul.r-universe.dev)."
+
+  transmision_activa:
+    titulo: "Focos de transmisión activa de las arbovirosis"
+    objetivo: "Identificar los focos de transmisión activa (cadenas de transmisión, mapas de calor y modelo Log-Gaussian Cox Process) de las arbovirosis en {ambito}."
+    temas:
+      - Geocoding API Key
+      - Geocodificación en R
+      - Cadenas de transmisión
+      - Mapas de calor
+      - Modelo Log-Gaussian Cox Process
+    presentaciones:
+      - texto: "Geocoding API Key"
+        url: "https://fancy-arithmetic-194be1.netlify.app/talks/api_key_google/#/title-slide"
+    laboratorio:
+      objetivo: >-
+        Que el personal de vectores desarrolle las competencias específicas para
+        realizar la geocodificación y el análisis de los focos de transmisión
+        activa de las arbovirosis en R.
+      actividades:
+        - - "Bajar la carpeta [geocodificación](https://github.com/fdzul/geocodificacion) de GitHub."
+          - "Geocodificar las bases de datos históricas del [SINAVE](https://www.sinave.gob.mx)."
+        - - "Realizar el análisis de los focos de transmisión activa en la(s) localidad(es) prioritaria(s) del estado."
+          - "Elaborar los mapas estáticos e interactivos."
+
+  hotspots_casos:
+    titulo: "Hotspots de la transmisión persistente de las arbovirosis"
+    objetivo: "Identificar los hotspots de la transmisión persistente de las arbovirosis en {ambito}."
+    temas:
+      - Bases del SINAVE
+      - Geocodificación en R
+      - Extraer la localidad
+      - Contar los casos por polígono
+      - Calcular los hotspots
+      - Visualizar los hotspots
+    presentaciones:
+      - texto: "Análisis espacial del dengue en R"
+        url: "https://animated-longma-729cee.netlify.app/talks/spatial_analysis_dengue/#1"
+      - texto: "Hotspots de transmisión del dengue"
+        url: "https://animated-longma-729cee.netlify.app/talks/hotspots_cases/#1"
+      - texto: "Hotspots de transmisión del dengue en R"
+        url: "https://animated-longma-729cee.netlify.app/talks/hotspots_cases_r/#1"
+    laboratorio:
+      objetivo: >-
+        Que el personal de vectores desarrolle las competencias específicas para
+        identificar los hotspots de la transmisión persistente en las
+        localidades prioritarias del estado.
+      actividades:
+        - - "Bajar la carpeta [hotspots_cases](https://github.com/fdzul/hotspots_cases) de GitHub."
+          - "Realizar el análisis de hotspots en la(s) localidad(es) prioritaria(s) del estado de procedencia."
+
+  hotspots_vector:
+    titulo: "Hotspots de la abundancia de huevos del vector del dengue"
+    objetivo: "Identificar los hotspots de la abundancia de huevos de *Aedes aegypti* en {ambito}."
+    temas:
+      - tema: Bajar las bases de ovitrampas
+        instructor: "Luis Hernández-Herrera"
+      - Análisis exploratorio de ovitrampas
+      - Análisis geoestadístico con INLA
+      - Algoritmo para el análisis geoestadístico
+      - Visualización de la predicción de huevos
+      - Hotspots de huevos e intensidad
+      - Visualización de los hotspots de huevos
+    presentaciones:
+      - texto: "Hotspots del vector del dengue"
+        url: "https://animated-longma-729cee.netlify.app/talks/hotspots_eggs/#1"
+      - texto: "Hotspots del vector del dengue en R"
+        url: "https://animated-longma-729cee.netlify.app/talks/hotspots_eggs_r/#1"
+    laboratorio:
+      objetivo: >-
+        Que el personal de vectores desarrolle las competencias específicas para
+        realizar la predicción de huevos usando el análisis geoestadístico con
+        SPDE-INLA.
+      actividades:
+        - - "Bajar las bases de datos históricas de lecturas de ovitrampas (2020–2026)."
+          - "Bajar las lecturas de ovitrampas del año en curso hasta el mes del curso."
+        - - "Bajar la carpeta [hotspots_vector](https://github.com/fdzul/hotspots_vector) de GitHub."
+          - "Predecir el número de huevos en la(s) localidad(es) prioritaria(s) del estado de procedencia."
+          - "Visualizar los mapas predictivos."
+
+  focalizacion:
+    titulo: "Modelo estratégico de focalización del dengue"
+    objetivo: "Desarrollar un modelo estratégico de focalización del dengue en {ambito}."
+    temas:
+      - Hotspots de casos
+      - Hotspots del vector
+      - Definición del riesgo de transmisión
+      - Visualización del riesgo de transmisión
+      - Modelo estratégico de focalización
+    presentaciones: []
+    laboratorio:
+      objetivo: >-
+        Que el personal de vectores desarrolle las competencias específicas para
+        identificar los escenarios epidemiológicos del dengue combinando los
+        hotspots de casos y del vector.
+      actividades:
+        - - "Bajar la carpeta de focos de transmisión persistente de GitHub."
+          - "Construir los escenarios epidemiológicos y el mapa de riesgo de la(s) localidad(es) prioritaria(s)."
+
+  dashboard:
+    titulo: "Dashboard de la transmisión activa"
+    objetivo: "Diseñar y publicar en internet un dashboard de la transmisión activa del dengue."
+    temas:
+      - Creación de un dashboard
+      - Git & GitHub
+      - Netlify
+    presentaciones: []
+    laboratorio:
+      objetivo: >-
+        Que el personal de vectores desarrolle las competencias específicas para
+        diseñar un dashboard y publicarlo en internet.
+      actividades:
+        - - "Bajar la plantilla del dashboard."
+          - "Crear una cuenta en [GitHub](https://github.com) y en [Netlify](https://www.netlify.com)."
+          - "Instalar git y registrar el usuario y correo en la computadora."
+          - "Conectar git con GitHub."
+          - "Publicar el dashboard."

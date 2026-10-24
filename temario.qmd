@@ -1,0 +1,17 @@
+---
+title: "Temario"
+---
+
+```{r}
+#| include: false
+source("R/helpers.R")
+cfg <- leer_curso()
+```
+
+```{r}
+#| output: asis
+#| echo: false
+hijos <- vapply(seq_along(cfg$modulos_det), function(i)
+  knitr::knit_child(text = temario_modulo_child(i), envir = environment(), quiet = TRUE), "")
+cat(hijos, sep = "\n")
+```

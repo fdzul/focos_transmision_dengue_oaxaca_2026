@@ -1,0 +1,80 @@
+---
+title: ""
+---
+
+```{r}
+#| include: false
+source("R/helpers.R")
+cfg <- leer_curso()
+```
+
+## `r if (length(cfg$estados) > 1) "Estados convocados" else "Estado convocado"`
+
+`r paste(cfg$estados, collapse = ", ")`
+
+```{r}
+#| output: asis
+#| echo: false
+if (!is.null(cfg$jurisdicciones)) {
+  cat("**Jurisdicciones sanitarias:**\n\n", md_lista(cfg$jurisdicciones), "\n")
+}
+```
+
+## Formato del curso
+
+```{r}
+#| output: asis
+#| echo: false
+cat(md_lista(c(cfg$formato$modalidad, cfg$formato$horario)))
+```
+
+## Sede
+
+```{r}
+#| output: asis
+#| echo: false
+s <- cfg$sede
+cat(md_lista(c(if (!is.null(s$nombre)) paste0("**", s$nombre, "**"),
+               s$direccion,
+               if (!is.null(s$hotel)) paste("Hotel recomendado:", s$hotel))))
+```
+
+```{r}
+#| echo: false
+mapa_sede(cfg$sede)
+```
+
+## Fecha
+
+`r cfg$fecha`
+
+## Requisitos de conceptos teóricos
+
+Es ideal tener conocimientos de los conceptos básicos de los sistemas de información geográfica (SIG), como vector (puntos, líneas y polígonos), ráster y sistemas de referencia de coordenadas (*Coordinate Reference System*, CRS), pero no es indispensable.
+
+## Requisitos computacionales
+
+Es deseable tener experiencia en R, Python o cualquier otro lenguaje de programación, principalmente en importar archivos de texto (csv, txt, xlsx) y archivos geográficos, crear gráficos simples y manipular bases de datos. Si no tiene experiencia con R pero ya usa software SIG y conoce bien los tipos de datos geográficos, el curso también puede ser apropiado para usted, siempre que tenga la necesidad o el deseo de aprender nuevas herramientas para la elaboración y diseño de mapas en R.
+
+## Requisitos de equipo y software
+
+-   **Computadora.** Laptop o computadora de escritorio con una versión funcional de R, RStudio y Rtools. R y Rtools se descargan de <https://www.r-project.org/> y RStudio de <https://posit.co/>. En el curso se abordarán brevemente otros IDE para trabajar con R: [Positron](https://positron.posit.co/download.html), [Visual Studio Code](https://code.visualstudio.com), [Antigravity](https://antigravity.google) y [Google Colaboratory](https://colab.research.google.com).
+
+-   **Instalación de paquetes en R.** Todos los paquetes que utilizaremos se podrán instalar durante el taller; antes del curso se compartirá la lista completa.
+
+-   **Claves del SINAVE.** Es importante contar con su usuario y contraseña del módulo de vectores del SINAVE; en el taller se usarán las bases de datos de vectores (principalmente dengue) para la elaboración de los mapas.
+
+-   **Requisitos adicionales.** Aunque no es obligatorio, un monitor grande o un segundo monitor mejora mucho la experiencia de aprendizaje.
+
+## Inscripción al curso
+
+Las inscripciones se abrirán cuando la Dirección y Subdirección de Vectores del CENAPRECE autoricen las unidades didácticas del curso.
+
+`r enlace("Formulario de inscripción", cfg$formularios$inscripcion)`
+
+## Examen
+
+Se realizará un examen previo y uno posterior al curso. El examen previo se aplica una semana antes del curso y el posterior durante el curso.
+
+-   `r enlace("Examen previo", cfg$formularios$examen_previo)`
+-   `r enlace("Examen posterior", cfg$formularios$examen_posterior)`

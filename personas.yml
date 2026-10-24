@@ -1,0 +1,43 @@
+# =====================================================================
+# CATÁLOGO DE PERSONAS (contactos reutilizables entre cursos)
+# ---------------------------------------------------------------------
+# En curso.yml se eligen por clave:  contactos: [dzul, correa, gomez_dantes]
+# Los contactos locales de cada sede se escriben directo en curso.yml.
+# Solo se muestran los campos que existan (si no hay foto, no hay foto).
+# =====================================================================
+
+dzul:
+  nombre: "Dr. Felipe Antonio Dzul Manzanilla"
+  foto: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=3e3-4VkAAAAJ&citpid=1"
+  telefono: "999 958 0167"
+  telefono_oficina: "329 30 00 Ext. 3225"
+  correo: ["felipe.dzul.m@gmail.com", "investigador41@insp.mx"]
+  enlaces:
+    "Google Académico": "https://scholar.google.es/citations?user=3e3-4VkAAAAJ&hl=es"
+    "GitHub": "https://github.com/fdzul"
+    "Bio": "https://sparkly-kleicha-e38ffa.netlify.app"
+    "INSP": "https://www.insp.mx/centros/sistemas-de-salud/investigador/dzul-manzanilla-felipe-antonio"
+
+correa:
+  nombre: "Dr. Fabián Correa Morales"
+  foto: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=JceGxawAAAAJ&citpid=1"
+  telefono: "55 7474 5576"
+  correo: ["fabiancorrea@msn.com"]
+  enlaces:
+    "Google Académico": "https://scholar.google.com/citations?hl=en&user=JceGxawAAAAJ"
+
+gomez_dantes:
+  nombre: "Dr. Héctor Gómez Dantés"
+  foto: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=wl8S934AAAAJ&citpid=1"
+  telefono_oficina: "329 30 00 Ext. 3225"
+  correo: ["hector.gomez@insp.mx"]
+  enlaces:
+    "Google Académico": "https://scholar.google.es/citations?user=wl8S934AAAAJ&hl=es"
+    "INSP": "https://insp.mx/centros/sistemas-de-salud/investigador/gomez-dantes-hector"
+
+moreno_banda:
+  nombre: "Dra. Grea Litai Moreno Banda"
+  telefono_oficina: "329 30 00 Ext. 3277"
+  correo: ["glmoreno@insp.mx"]
+  enlaces:
+    "INSP": "https://www.insp.mx/investigador/grea-litai-moreno-banda/6PxlYvQJW5"

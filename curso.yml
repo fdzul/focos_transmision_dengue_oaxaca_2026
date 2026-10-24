@@ -1,0 +1,48 @@
+# Curso estatal de prueba — Oaxaca
+curso:
+  titulo: "Identificación de los Focos de Transmisión de las Arbovirosis en R"
+  titulo_corto: "Focos de Transmisión del Dengue · Oaxaca"
+  anio: 2026
+  autores: "Felipe Antonio Dzul Manzanilla | Fabián Correa-Morales"
+  repo: "fdzul/focos_transmision_dengue_oaxaca_2026"
+  ambito: "las localidades urbanas endémicas del estado de Oaxaca"
+  banner: null
+  audiencia_extra: >-
+    En esta edición estatal se trabajará con las bases de datos del SINAVE
+    y de ovitrampas de las localidades prioritarias de Oaxaca, de modo que
+    cada participante termine el curso con los mapas de su localidad.
+
+estados: ["Oaxaca"]
+jurisdicciones: null
+
+formato:
+  modalidad: "Curso presencial de martes a viernes."
+  horario: "09:00 a 18:00 horas"
+
+fecha: "Del 27 al 30 de octubre de 2026"
+
+sede:
+  nombre: "Salón de eventos, Hotel Angel Inn"
+  direccion: "Calle Hidalgo 204, San Felipe del Agua, C.P. 68020, Oaxaca de Juárez, Oaxaca ([Google Maps](https://maps.app.goo.gl/ydLA9W5jEL8TzMdy7))"
+  hotel: "Hotel Misión, Avenida Jalisco 15, C.P. 68020, Oaxaca de Juárez, Oaxaca"
+  lat: 17.0981196
+  lon: -96.7135209
+
+modulos: [requisitos, transmision_activa, hotspots_casos, hotspots_vector, focalizacion, dashboard]
+
+instructores:
+  requisitos: "Felipe A. Dzul Manzanilla"
+  transmision_activa:
+    "Geocoding API Key": "Felipe A. Dzul Manzanilla"
+
+formularios:
+  inscripcion: null
+  examen_previo: null
+  examen_posterior: null
+
+contactos: [dzul, correa, gomez_dantes]
+contactos_locales:
+  - nombre: "Ing. Guillermo Rivera Barranco"
+    cargo: "Coordinador Estatal de Evaluación de Procesos y Estadística, Departamento de Prevención y Control de Enfermedades Transmitidas por Vector del Estado de Oaxaca"
+    telefono: "958 106 1372"
+    correo: ["memo85@gmail.com"]

@@ -1,0 +1,15 @@
+---
+title: "Laboratorios"
+---
+
+```{r}
+#| include: false
+source("R/helpers.R")
+cfg <- leer_curso()
+```
+
+```{r}
+#| output: asis
+#| echo: false
+cat(md_labs(cfg))
+```

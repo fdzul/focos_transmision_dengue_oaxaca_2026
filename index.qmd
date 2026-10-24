@@ -1,0 +1,29 @@
+---
+title: ""
+---
+
+```{r}
+#| include: false
+source("R/helpers.R")
+cfg <- leer_curso()
+```
+
+![](`r cfg$curso$banner %||% "imagenes/cenaprece.png"`)
+
+# Objetivo general
+
+El curso **`r cfg$curso$titulo`** tiene como objetivo central desarrollar las competencias específicas para la identificación de los escenarios operativos o epidemiológicos del riesgo de transmisión de los virus del dengue en `r cfg$curso$ambito`, usando información entomológica y epidemiológica, con la finalidad de orientar las acciones de prevención y control del Manejo Integrado de las Arbovirosis en México.
+
+# Objetivos específicos
+
+```{r}
+#| output: asis
+#| echo: false
+cat(md_objetivos(cfg))
+```
+
+# Audiencia
+
+El curso está complementado con el desarrollo de paquetes de R colectivamente llamados [**dengueverse**](https://fdzul.r-universe.dev) (rgeomex, denhotspots, deneggs, dencontrol, denepikit) y con el [manual para la identificación de los hotspots en las localidades urbanas endémicas](https://fdzul.github.io/manual_hotspots/). Actualmente se está escribiendo una nueva versión del manual, [*Identificación de los Focos de la Transmisión de las Arbovirosis & Manejo Integrado de Aedes en R*](https://flourishing-jelly-b34c35.netlify.app) (en actualización). El curso, los paquetes y el manual están dirigidos al personal operativo, mandos medios y directivos de los Programas de Prevención y Control de las arbovirosis transmitidas por *Aedes* de la Secretaría de Salud de México, a la comunidad académica relacionada con la investigación operativa sobre el análisis espacial del dengue y al público en general interesado en el tema.
+
+`r cfg$curso$audiencia_extra %||% ""`
