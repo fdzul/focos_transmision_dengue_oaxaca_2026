@@ -29,11 +29,11 @@ modulos:
       - Datos espaciales
     presentaciones:
       - texto: "Instalación de paquetes"
-        url: "https://calm-hummingbird-41cb33.netlify.app/talks/pkg_installation/#/"
+        url: "https://polite-treacle-c5a008.netlify.app/talks/pkg_installation/#/title-slide"
       - texto: "dengueverse"
         url: "https://calm-hummingbird-41cb33.netlify.app/talks/dengueverse/#/dengueverse"
       - texto: "Datos espaciales"
-        url: "https://calm-hummingbird-41cb33.netlify.app/talks/spatial_data/#/"
+        url: "https://polite-treacle-c5a008.netlify.app/talks/spatial_data/#/title-slide"
     laboratorio:
       objetivo: >-
         Que el personal de vectores desarrolle las competencias específicas para
@@ -55,16 +55,18 @@ modulos:
       - Modelo Log-Gaussian Cox Process
     presentaciones:
       - texto: "Geocoding API Key"
-        url: "https://fancy-arithmetic-194be1.netlify.app/talks/api_key_google/#/title-slide"
+        url: "https://polite-treacle-c5a008.netlify.app/talks/geocoding_api/#/title-slide"
     laboratorio:
       objetivo: >-
         Que el personal de vectores desarrolle las competencias específicas para
         realizar la geocodificación y el análisis de los focos de transmisión
         activa de las arbovirosis en R.
       actividades:
-        - - "Bajar la carpeta [geocodificación](https://github.com/fdzul/geocodificacion) de GitHub."
+        - - "Bajar la carpeta [geocodificación](https://github.com/fdzul/dengue_geocoding_oaxaca_2026) de GitHub."
           - "Geocodificar las bases de datos históricas del [SINAVE](https://www.sinave.gob.mx)."
         - - "Realizar el análisis de los focos de transmisión activa en la(s) localidad(es) prioritaria(s) del estado."
+          - "Bajar la carpeta [focos_transmision_activa_oaxaca_2026](https://github.com/fdzul/focos_transmision_activa_oaxaca_2026
+)"
           - "Elaborar los mapas estáticos e interactivos."
 
   hotspots_casos:

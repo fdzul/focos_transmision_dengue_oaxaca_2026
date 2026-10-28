@@ -32,7 +32,7 @@
     "href": "Labs.html#laboratorio-del-módulo-ii.-focos-de-transmisión-activa-de-las-arbovirosis",
     "title": "Laboratorios",
     "section": "Laboratorio del Módulo II. Focos de transmisión activa de las arbovirosis",
-    "text": "Laboratorio del Módulo II. Focos de transmisión activa de las arbovirosis\nObjetivo. Que el personal de vectores desarrolle las competencias específicas para realizar la geocodificación y el análisis de los focos de transmisión activa de las arbovirosis en R.\n\nActividad 1\n\nBajar la carpeta geocodificación de GitHub.\nGeocodificar las bases de datos históricas del SINAVE.\n\n\n\nActividad 2\n\nRealizar el análisis de los focos de transmisión activa en la(s) localidad(es) prioritaria(s) del estado.\nElaborar los mapas estáticos e interactivos."
+    "text": "Laboratorio del Módulo II. Focos de transmisión activa de las arbovirosis\nObjetivo. Que el personal de vectores desarrolle las competencias específicas para realizar la geocodificación y el análisis de los focos de transmisión activa de las arbovirosis en R.\n\nActividad 1\n\nBajar la carpeta geocodificación de GitHub.\nGeocodificar las bases de datos históricas del SINAVE.\n\n\n\nActividad 2\n\nRealizar el análisis de los focos de transmisión activa en la(s) localidad(es) prioritaria(s) del estado.\nBajar la carpeta focos_transmision_activa_oaxaca_2026\nElaborar los mapas estáticos e interactivos."
   },
   {
     "objectID": "Labs.html#laboratorio-del-módulo-iii.-hotspots-de-la-transmisión-persistente-de-las-arbovirosis",
